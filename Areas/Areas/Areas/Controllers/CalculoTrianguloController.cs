@@ -23,5 +23,13 @@ namespace Areas.Controllers
 
             return Json(new { Success = true, respuesta = resultado });
         }
+
+public ActionResult David()
+{
+      Console.WriteLine("Dame el primer numero");
+            int numero1=int.Parse(Console.ReadLine());
+            Console.WriteLine("Dame el segundo numero");
+            int numero2=int.Parse(Console.ReadLine());
+}
     }
 }
